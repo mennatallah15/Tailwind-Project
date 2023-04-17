@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+:root {
+  background-color: white !important;
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------------------------Navbar------------------------------- */
+.menu li > *:not(ul) {
+  gap: 0;
+  /* background-color: #90b956; */
+  padding: 10px;
+}
+
+/* ----------------------------Header------------------------------- */
+.MainTitle::after {
+  content: url(https://astrip-react.vercel.app/_next/static/media/banner-dot-vector.26600116.svg) !important;
+  /* content: ""; */
+  z-index: 9 !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: -7px;
+}
+.HeaderTitle {
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+.HeaderBtn {
+  /* -webkit-transform: scale(0); */
+  /* -ms-transform: scale(0); */
+  /* transform: scale(0); */
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.HeaderBtn:hover {
+  -webkit-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  transform: scale(1) !important;
+  background-color: white !important;
+  color: #90b956;
+  border: 2px solid #90b956 !important;
+}
+
+/* --------------------------Destination---------------------------- */
+.DestinationText::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 34px;
+  height: 3.2px;
+  margin-top: 6px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+/* --------------------------Feel The Vibe---------------------------- */
+.ScrollingPhoto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://astrip-react.vercel.app/_next/static/media/video-bg.8e701a3a.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-x: 60%;
+}
+
+/* ----------------------------Footer------------------------------- */
+.FooterImage {
+  background-image: linear-gradient(
+      rgba(9, 16, 13, 0.88),
+      rgba(9, 16, 13, 0.88)
+    ),
+    url(https://astrip-react.vercel.app/_next/static/media/footer1-bg.65c649b5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  padding: 0 10px;
+}
