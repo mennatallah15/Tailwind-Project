@@ -68,6 +68,18 @@
   background-position-x: 60%;
 }
 
+/* ----------------------------Choose Tour------------------------------- */
+.TourList li::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 12px;
+  height: 2px;
+  border-radius: 30px;
+  background-color: #5e5e5e;
+}
+
 /* ----------------------------Footer------------------------------- */
 .FooterImage {
   background-image: linear-gradient(

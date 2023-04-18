@@ -6,6 +6,8 @@ import Deals_Offers from "../Components/Deals_Offers";
 import Destination from "../Components/Destination";
 import FeelTheVibe from "../Components/FeelTheVibe";
 import AskForm from "../Components/AskForm";
+import ChooseTour from "../Components/ChooseTour";
+import Numbers from "../Components/Numbers";
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <Destination />
       <FeelTheVibe />
       <AskForm />
+      <ChooseTour />
+      <Numbers />
     </div>
   );
 };
