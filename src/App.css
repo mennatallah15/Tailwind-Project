@@ -49,6 +49,35 @@
   border: 2px solid #90b956 !important;
 }
 
+.Plane {
+  animation: 20s linear 0s infinite reverse;
+  animation-name: Plane;
+  animation-duration: 20s;
+  z-index: 9;
+}
+@keyframes Plane {
+  0% {
+    right: -500px;
+  }
+
+  100% {
+    right: 102%;
+  }
+}
+.HeaderImg {
+  animation: 10s linear infinite alternate;
+  animation-name: Image;
+  animation-duration: 6s;
+}
+@keyframes Image {
+  0% {
+    transform: translateY(-40px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
 /* --------------------------Destination---------------------------- */
 .DestinationText::after {
   content: "";

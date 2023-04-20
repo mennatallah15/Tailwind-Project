@@ -1,18 +1,27 @@
 const Header = () => {
   return (
-    <div className="MainHeader flex lg:justify-between md:justify-between mx-auto px-20 relative mb-[20px] lg:mb-28 py-20 top-30 max-[990px]:h-[50rem] overflow-hidden">
+    <div className="relative MainHeader flex lg:justify-between md:justify-between mx-auto px-20 mb-[20px] lg:mb-28 py-20 top-30 max-[990px]:h-[50rem] overflow-hidden">
       <div className="md:mr-8 mt-[30px] py-10">
+        <div className="Plane absolute opacity-[.9] top-[150px] right-[-500px]">
+          <img
+            className="opacity-[.6] max-w-[90px]"
+            src="https://astrip-react.vercel.app/assets/images/icons/banner-plane.svg"
+            alt=""
+          />
+        </div>
         <div className="mt-[15px] py-8 flex justify-center opacity-[0.5] max-[990px]:w-[10vw] max-[990px]:mt-20">
           <img
             src="https://astrip-react.vercel.app/assets/images/icons/cloud1.svg"
             alt=""
           />
         </div>
-        <img
-          className="lg:max-w-[230px] md:max-w-[230px] mt-[20px] max-[990px]:hidden"
-          src="https://astrip-react.vercel.app/assets/images/bg/banner-image1.png"
-          alt=""
-        />
+        <div className="relative HeaderImg">
+          <img
+            className="lg:max-w-[230px] md:max-w-[230px] mt-[20px] max-[990px]:hidden"
+            src="https://astrip-react.vercel.app/assets/images/bg/banner-image1.png"
+            alt=""
+          />
+        </div>
       </div>
       <div className="max-[990px]:bg-[#212529da] max-[990px]:w-[100%] max-[990px]:absolute overflow-hidden bottom-0 top-20 left-0 py-16">
         <div className="HeaderTitle text-center absolute xl:w-[40%] lg:w-[37%] max-[990px]:ml-[20px] min-[990px]:w-[40%] w-full px-4 inline-block h-[50vh] max-[990px]:top-[40%]">

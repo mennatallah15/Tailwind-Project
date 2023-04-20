@@ -175,7 +175,7 @@ const Footer = () => {
             </span>
             <a
               href="#!"
-              className="border-[1px] border-[#5e5e5e] text-neutral-600 dark:text-neutral-200 w-[30px] h-[30px] bg-[#0f1012] rounded-full flex justify-center items-center"
+              className="border-[1px] border-[#5e5e5e] text-neutral-600 dark:text-neutral-200 w-[30px] h-[30px] bg-[#0f1012] rounded-full flex justify-center items-center hover:bg-[#90b956]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +188,7 @@ const Footer = () => {
             </a>
             <a
               href="#!"
-              className="h-[30px] border-[1px] border-[#5e5e5e] text-neutral-600 dark:text-neutral-200 w-[30px] bg-[#0f1012] rounded-full flex justify-center items-center"
+              className="h-[30px] border-[1px] border-[#5e5e5e] text-neutral-600 dark:text-neutral-200 w-[30px] bg-[#0f1012] rounded-full flex justify-center items-center hover:bg-[#90b956]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +202,7 @@ const Footer = () => {
 
             <a
               href="#!"
-              className="h-[30px] text-neutral-600 dark:text-neutral-200 w-[30px] bg-[#0f1012] rounded-full flex justify-center items-center border-[1px] border-[#5e5e5e]"
+              className="h-[30px] text-neutral-600 dark:text-neutral-200 w-[30px] bg-[#0f1012] rounded-full flex justify-center items-center border-[1px] border-[#5e5e5e] hover:bg-[#90b956]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
