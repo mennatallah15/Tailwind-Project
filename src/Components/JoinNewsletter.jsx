@@ -14,7 +14,7 @@ const JoinNewsletter = () => {
         </div>
       </div>
       <div className="Newsletter flex justify-center items-center text-center lg:w-[42%] max-[990px]:w-full">
-        <div className="NewsForm py-[45px] px-[30px] w-full max-w-[400px] text-white">
+        <div className="NewsForm py-[45px] px-[30px] lg:w-full max-w-[400px] text-white">
           <h3 className="font-[700] lg:text-[1.9rem] text-[1.6rem] mb-[15px] leading-[1.35] font-['Merriweather']">
             Join Newsletter
           </h3>
