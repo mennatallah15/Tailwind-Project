@@ -8,6 +8,7 @@ import FeelTheVibe from "../Components/FeelTheVibe";
 import AskForm from "../Components/AskForm";
 import ChooseTour from "../Components/ChooseTour";
 import Numbers from "../Components/Numbers";
+import JoinNewsletter from "../Components/JoinNewsletter";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <AskForm />
       <ChooseTour />
       <Numbers />
+      <JoinNewsletter />
     </div>
   );
 };

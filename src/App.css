@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+
 :root {
   background-color: white !important;
   padding: 0;
@@ -23,11 +25,13 @@
   right: 0;
   top: -7px;
 }
+
 .HeaderTitle {
   top: 50%;
   left: 45%;
   transform: translate(-50%, -50%);
 }
+
 .HeaderBtn {
   /* -webkit-transform: scale(0); */
   /* -ms-transform: scale(0); */
@@ -35,6 +39,7 @@
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
+
 .HeaderBtn:hover {
   -webkit-transform: scale(1) !important;
   -ms-transform: scale(1) !important;
@@ -78,6 +83,26 @@
   height: 2px;
   border-radius: 30px;
   background-color: #5e5e5e;
+}
+
+/* ----------------------------Newsletter------------------------------- */
+.Newsletter {
+  min-height: 660px;
+  background-image: url(https://astrip-react.vercel.app/_next/static/media/newsletter-bg.097ce13b.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 10px;
+  min-width: 440px;
+}
+.NewsForm {
+  background: linear-gradient(
+    152.97deg,
+    rgba(32, 42, 55, 0.4),
+    rgba(12, 25, 43, 0.2)
+  );
+  backdrop-filter: blur(50px);
+  border: 1px solid rgba(144, 185, 86, 0.33);
+  border-radius: 5px;
 }
 
 /* ----------------------------Footer------------------------------- */

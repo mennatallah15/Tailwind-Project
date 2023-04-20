@@ -46,7 +46,7 @@ const Rating = () => {
         type="radio"
         name="rating-10"
         className="bg-yellow-300 mask mask-star-2 mask-half-1"
-        checked
+        defaultChecked={true}
       />
       <input
         type="radio"

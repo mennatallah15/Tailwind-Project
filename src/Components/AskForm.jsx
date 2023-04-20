@@ -23,7 +23,7 @@ const AskForm = () => {
                       type="text"
                       name="first-name"
                       id="first-name"
-                      autocomplete="given-name"
+                      autoComplete="given-name"
                       placeholder="Full Name"
                       className="bg-transparent block w-full border-[1.5px] border-gray-300 py-3 text-gray-900 placeholder:text-gray-500 focus:border-[#90b956] sm:leading-6 p-5"
                     />
@@ -36,7 +36,7 @@ const AskForm = () => {
                       type="email"
                       name="last-name"
                       id="last-name"
-                      autocomplete="family-name"
+                      autoComplete="family-name"
                       placeholder="Your E-mail"
                       className="p-5 bg-transparent block w-full border-[1.5px] border-gray-300 py-3 text-gray-900 placeholder:text-gray-500 focus:border-[#90b956] sm:text-sm sm:leading-6"
                     />

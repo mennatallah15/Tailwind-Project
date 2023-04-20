@@ -1,4 +1,20 @@
+import { useState } from "react";
+const options = [
+  { value: "", text: "Destination" },
+  { value: "egypt", text: "Egypt" },
+  { value: "usa", text: "USA" },
+  { value: "bali", text: "Bali" },
+  { value: "turkey", text: "Turkey" },
+  { value: "south africa", text: "South Africa" },
+];
+
 const HeaderCards = () => {
+  const [selected, setSelected] = useState(options[0].value);
+
+  const handleChange = (event) => {
+    console.log(event.target.value);
+    setSelected(event.target.value);
+  };
   return (
     <div className="flex justify-center items-center text-center relative max-[990px]:bottom-10 bottom-28">
       <div className="stats stats-vertical lg:stats-horizontal md:stats-horizontal shadow-lg w-[90%] rounded-none mb-10 bg-white text-black">
@@ -10,17 +26,16 @@ const HeaderCards = () => {
             alt=""
           />
           {/* <div className="stat-value text-[15px] font-[500]">Destination</div> */}
-          <select className="stat-value text-[15px] font-[500] select w-[97%] bg-white border-none rounded-none">
-            <option disabled selected>
-              Destination
-            </option>
-            <option>Egypt</option>
-            <option>USA</option>
-            <option>Bali</option>
-            <option>South Africa</option>
-            <option>Turkey</option>
-            <option>Turkey</option>
-            <option>Turkey</option>
+          <select
+            className="stat-value text-[15px] font-[500] select w-[97%] bg-white border-none rounded-none"
+            value={selected}
+            onChange={handleChange}
+          >
+            {options.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.text}
+              </option>
+            ))}
           </select>
         </div>
 
@@ -31,17 +46,16 @@ const HeaderCards = () => {
             height="15px"
             alt=""
           />
-          <select className="stat-value text-[15px] font-[500] select w-[97%] bg-white border-none rounded-none">
-            <option disabled selected>
-              Destination
-            </option>
-            <option>Egypt</option>
-            <option>USA</option>
-            <option>Bali</option>
-            <option>South Africa</option>
-            <option>Turkey</option>
-            <option>Turkey</option>
-            <option>Turkey</option>
+          <select
+            className="stat-value text-[15px] font-[500] select w-[97%] bg-white border-none rounded-none"
+            value={selected}
+            onChange={handleChange}
+          >
+            {options.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.text}
+              </option>
+            ))}
           </select>
         </div>
 
@@ -52,17 +66,16 @@ const HeaderCards = () => {
             height="15px"
             alt=""
           />
-          <select className="stat-value text-[15px] font-[500] select w-[97%] bg-white border-none rounded-none ">
-            <option disabled selected>
-              Type
-            </option>
-            <option>Egypt</option>
-            <option>USA</option>
-            <option>Bali</option>
-            <option>South Africa</option>
-            <option>Turkey</option>
-            <option>Turkey</option>
-            <option>Turkey</option>
+          <select
+            className="stat-value text-[15px] font-[500] select w-[97%] bg-white border-none rounded-none"
+            value={selected}
+            onChange={handleChange}
+          >
+            {options.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.value === "" ? "Type" : option.text}
+              </option>
+            ))}
           </select>
         </div>
         <div className="stat">

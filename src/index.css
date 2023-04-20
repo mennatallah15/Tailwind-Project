@@ -2,7 +2,7 @@
 @tailwind components;
 @layer components {
   .btn {
-    @apply text-white bg-[#90b956] border-none rounded-none px-10;
+    @apply text-white bg-[#90b956] border-none rounded-none px-12;
   }
 }
 @tailwind utilities;

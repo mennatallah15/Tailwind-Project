@@ -12,7 +12,7 @@ const FeelTheVibe = () => {
             alt=""
           />
           <h1 className="relative xl:lg:md:text-[2.7rem] text-white text-[2.5rem] font-[700] leading-[1.5] font-['Merriweather'] mb-5">
-            Life Begins at The End of Your Comfort Zone.
+            Life Begins at The End of Your Comfort Zone. hello
           </h1>
           <p className="text-white font-sans text-[1.2rem] max-[550px]:text-[0.9rem] font-[400] mb-3">
             Lorem ipsum dolor sit amet, consectetur adi- piscing elit. sed do
