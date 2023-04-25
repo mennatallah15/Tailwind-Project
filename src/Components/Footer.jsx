@@ -113,8 +113,8 @@ const Footer = () => {
                 </svg>
               </div>
               <div>
-                <p className="mb-[11px]">+880 176 1111 456</p>
-                <p className="mb-[11px]">+880 176 1111 457</p>
+                <p className="mb-[6px]">+880 176 1111 456</p>
+                <p className="mb-[6px]">+880 176 1111 457</p>
               </div>
             </a>
             <a className="link link-hover text-[17px] font-[400] mb-[15px] flex">
@@ -135,11 +135,11 @@ const Footer = () => {
                 </svg>
               </div>
               <div>
-                <p className="mb-[11px]">info@example.com</p>
-                <p className="mb-[11px]">support@example.com</p>
+                <p className="mb-[6px]">info@example.com</p>
+                <p className="mb-[6px]">support@example.com</p>
               </div>
             </a>
-            <a className="link link-hover text-[17px] font-[400] flex">
+            <a className="link link-hover text-[17px] font-[400] flex justify-center items-center">
               <div className="w-[30px] h-[30px] text-center border-[1px] border-[#90b956] rounded-full flex justify-center items-center mr-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -162,8 +162,8 @@ const Footer = () => {
                 </svg>
               </div>
               <div>
-                <p className="mb-[11px]">168/170, Avenue 01, Mirpur DOHS, </p>
-                <p className="mb-[11px]">Bangladesh</p>
+                <p className="mb-[6px]">168/170, Avenue 01, Mirpur DOHS, </p>
+                <p className="mb-[6px]">Bangladesh</p>
               </div>
             </a>
           </div>
@@ -174,7 +174,7 @@ const Footer = () => {
               Stay Connected:
             </span>
             <a
-              href="#!"
+              href="#"
               className="border-[1px] border-[#5e5e5e] text-neutral-600 dark:text-neutral-200 w-[30px] h-[30px] bg-[#0f1012] rounded-full flex justify-center items-center hover:bg-[#90b956]"
             >
               <svg
@@ -187,7 +187,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="#!"
+              href="#"
               className="h-[30px] border-[1px] border-[#5e5e5e] text-neutral-600 dark:text-neutral-200 w-[30px] bg-[#0f1012] rounded-full flex justify-center items-center hover:bg-[#90b956]"
             >
               <svg
@@ -201,7 +201,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="#!"
+              href="#"
               className="h-[30px] text-neutral-600 dark:text-neutral-200 w-[30px] bg-[#0f1012] rounded-full flex justify-center items-center border-[1px] border-[#5e5e5e] hover:bg-[#90b956]"
             >
               <svg

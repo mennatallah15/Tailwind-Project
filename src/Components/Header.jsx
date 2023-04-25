@@ -1,3 +1,5 @@
+import MainButton from "./MainButton";
+
 const Header = () => {
   return (
     <div className="relative MainHeader flex lg:justify-between md:justify-between mx-auto px-20 mb-[20px] lg:mb-28 py-20 top-30 max-[990px]:h-[50rem] overflow-hidden">
@@ -41,11 +43,7 @@ const Header = () => {
             <p className="text-[#5e5e5e] max-[990px]:text-white font-sans text-[1.5rem] max-[550px]:text-[1rem] font-[500] mb-[40px]">
               Treat yourself with a journey to your inner self.
             </p>
-            <button className="HeaderBtn btn">
-              <a href="" className="text-center text-[18px] normal-case">
-                Discover More
-              </a>
-            </button>
+            <MainButton text={"Discover More"} />
           </div>
         </div>
       </div>

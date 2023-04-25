@@ -1,3 +1,5 @@
+import MainButton from "./MainButton";
+
 const FeelTheVibe = () => {
   return (
     <div className="ScrollingPhoto mb-10 lg:pt-[120px] lg:pb-[220px] md:py-[100px] py-[90px]">
@@ -12,7 +14,7 @@ const FeelTheVibe = () => {
             alt=""
           />
           <h1 className="relative xl:lg:md:text-[2.7rem] text-white text-[2.5rem] font-[700] leading-[1.5] font-['Merriweather'] mb-5">
-            Life Begins at The End of Your Comfort Zone. hello
+            Life Begins at The End of Your Comfort Zone.
           </h1>
           <p className="text-white font-sans text-[1.2rem] max-[550px]:text-[0.9rem] font-[400] mb-3">
             Lorem ipsum dolor sit amet, consectetur adi- piscing elit. sed do
@@ -20,7 +22,8 @@ const FeelTheVibe = () => {
             ad minim. Exercitation ullam laboris nisi ut aliquip ex ea commodo
             consequat.
           </p>
-          <button className="btn mt-5">Discover More</button>
+          {/* <button className="btn mt-5">Discover More</button> */}
+          <MainButton text={"Discover More"} margin={"mt-5"} />
         </div>
         <div className="mt-24 flex lg:justify-start justify-center items-center flex-col">
           <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">

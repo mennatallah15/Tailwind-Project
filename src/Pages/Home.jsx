@@ -9,6 +9,7 @@ import AskForm from "../Components/AskForm";
 import ChooseTour from "../Components/ChooseTour";
 import Numbers from "../Components/Numbers";
 import JoinNewsletter from "../Components/JoinNewsletter";
+import MainButton from "../Components/MainButton";
 
 const Home = () => {
   return (

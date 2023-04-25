@@ -1,5 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import MainButton from "./MainButton";
+import ReverseBtn from "./ReverseBtn";
 
 const ChooseTour = () => {
   return (
@@ -142,7 +144,8 @@ const ChooseTour = () => {
                         </ul>
                       </div>
                       <div className="card-actions mt-5">
-                        <button className="btn HeaderBtn">Explore Now</button>
+                        {/* <button className="btn HeaderBtn">Explore Now</button> */}
+                        <ReverseBtn text={"Explore Now"} />
                       </div>
                     </div>
                   </div>
@@ -216,7 +219,7 @@ const ChooseTour = () => {
                         </ul>
                       </div>
                       <div className="card-actions mt-5">
-                        <button className="btn HeaderBtn">Explore Now</button>
+                        <ReverseBtn text={"Explore Now"} />
                       </div>
                     </div>
                   </div>
@@ -290,7 +293,7 @@ const ChooseTour = () => {
                         </ul>
                       </div>
                       <div className="card-actions mt-5">
-                        <button className="btn HeaderBtn">Explore Now</button>
+                        <ReverseBtn text={"Explore Now"} />
                       </div>
                     </div>
                   </div>

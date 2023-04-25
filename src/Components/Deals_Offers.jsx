@@ -1,4 +1,5 @@
 import Rating from "./Rating";
+import ReverseBtn from "./ReverseBtn";
 
 const Deals_Offers = () => {
   return (
@@ -49,7 +50,7 @@ const Deals_Offers = () => {
                     </span>
                   </p>
                   <div className="card-actions justify-end mt-5">
-                    <button className="btn HeaderBtn">Explore Now</button>
+                    <ReverseBtn text={"Explore Now"} />
                   </div>
                 </div>
               </div>
@@ -85,7 +86,7 @@ const Deals_Offers = () => {
                     </span>
                   </p>
                   <div className="card-actions justify-end mt-5">
-                    <button className="btn HeaderBtn">Explore Now</button>
+                    <ReverseBtn text={"Explore Now"} />
                   </div>
                 </div>
               </div>
@@ -121,7 +122,7 @@ const Deals_Offers = () => {
                     </span>
                   </p>
                   <div className="card-actions justify-end mt-5">
-                    <button className="btn HeaderBtn">Explore Now</button>
+                    <ReverseBtn text={"Explore Now"} />
                   </div>
                 </div>
               </div>
@@ -157,7 +158,7 @@ const Deals_Offers = () => {
                     </span>
                   </p>
                   <div className="card-actions justify-end mt-5">
-                    <button className="btn HeaderBtn">Explore Now</button>
+                    <ReverseBtn text={"Explore Now"} />
                   </div>
                 </div>
               </div>

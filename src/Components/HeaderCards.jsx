@@ -1,4 +1,5 @@
 import { useState } from "react";
+import MainButton from "./MainButton";
 const options = [
   { value: "", text: "Destination" },
   { value: "egypt", text: "Egypt" },
@@ -17,7 +18,7 @@ const HeaderCards = () => {
   };
   return (
     <div className="flex justify-center items-center text-center relative max-[990px]:bottom-10 bottom-28">
-      <div className="stats stats-vertical lg:stats-horizontal md:stats-horizontal shadow-lg w-[90%] rounded-none mb-10 bg-white text-black">
+      <div className="stats stats-vertical lg:stats-horizontal md:stats-horizontal shadow-lg w-[88%] rounded-none mb-10 bg-white text-black">
         <div className="stat flex justify-start align-middle items-center">
           <img
             src="https://astrip-react.vercel.app/assets/images/icons/form-location.svg"
@@ -80,11 +81,7 @@ const HeaderCards = () => {
         </div>
         <div className="stat">
           {/* <div className="stat-value text-[15px] font-[500]">Type</div> */}
-          <button className="stat-value btn HeaderBtn text-[18px] font-[500] px-0">
-            <a href="" className="normal-case">
-              Find More
-            </a>
-          </button>
+          <MainButton text={"Find More"} />
         </div>
       </div>
     </div>

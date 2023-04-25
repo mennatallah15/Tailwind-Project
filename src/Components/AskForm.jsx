@@ -1,4 +1,5 @@
 import React from "react";
+import MainButton from "./MainButton";
 
 const AskForm = () => {
   return (
@@ -59,7 +60,8 @@ const AskForm = () => {
             </div>
           </div>
           <div className="mt-8 flex items-center justify-center gap-x-6">
-            <button className="btn">Submit Now</button>
+            {/* <button className="btn">Submit Now</button> */}
+            <MainButton text={"Submit Now"} />
           </div>
         </form>
       </div>

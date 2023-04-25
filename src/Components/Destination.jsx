@@ -1,3 +1,5 @@
+import ReverseBtn from "./ReverseBtn";
+
 const Destination = () => {
   return (
     <div className="hero">
@@ -87,7 +89,8 @@ const Destination = () => {
               </div>
             </div>
             <div>
-              <button className="btn HeaderBtn my-16">All Destination</button>
+              {/* <button className="btn HeaderBtn my-16">All Destination</button> */}
+              <ReverseBtn text={"All Destination"} margin={"my-16"} />
             </div>
           </div>
         </div>

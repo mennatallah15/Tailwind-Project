@@ -32,12 +32,9 @@
   transform: translate(-50%, -50%);
 }
 
-.HeaderBtn {
-  /* -webkit-transform: scale(0); */
-  /* -ms-transform: scale(0); */
-  /* transform: scale(0); */
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
+/* .HeaderBtn {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .HeaderBtn:hover {
@@ -47,7 +44,7 @@
   background-color: white !important;
   color: #90b956;
   border: 2px solid #90b956 !important;
-}
+} */
 
 .Plane {
   animation: 20s linear 0s infinite reverse;
@@ -131,6 +128,19 @@
   backdrop-filter: blur(50px);
   border: 1px solid rgba(144, 185, 86, 0.33);
   border-radius: 5px;
+}
+
+.overlay {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.btnContainer:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
 /* ----------------------------Footer------------------------------- */

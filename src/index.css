@@ -2,7 +2,12 @@
 @tailwind components;
 @layer components {
   .btn {
-    @apply text-white bg-[#90b956] border-none rounded-none px-12;
+    @apply text-white bg-[#90b956] border-none rounded-none px-12 normal-case;
   }
+  /* .btn:hover {
+    background-color: white !important;
+    color: #90b956;
+    border: 2px solid #90b956 !important;
+  } */
 }
 @tailwind utilities;

@@ -1,3 +1,4 @@
+import MainButton from "./MainButton";
 import Testimonial from "./Testimonial";
 
 const JoinNewsletter = () => {
@@ -32,9 +33,10 @@ const JoinNewsletter = () => {
               placeholder="Your E-mail"
               className="mb-6 bg-transparent block w-full border-[1.5px] border-[hsla(0,0%,87%,.431)] py-3 text-white text-start placeholder:text-center placeholder:text-white focus:border-[#90b956] sm:leading-6 p-5"
             />
-            <button className="btn w-full normal-case font-[500] text-[18px] HeaderBtn">
+            {/* <button className="btn w-full normal-case font-[500] text-[18px] HeaderBtn">
               Join Us
-            </button>
+            </button> */}
+            <MainButton width={"w-full"} text={"Join Us"} />
           </form>
         </div>
       </div>
