@@ -1,19 +1,18 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import MainButton from "./MainButton";
 import ReverseBtn from "./ReverseBtn";
 
 const ChooseTour = () => {
   return (
     <>
-      <div className="hero">
+      <div>
         <div>
           <div>
             <div className="flex flex-col justify-center items-center">
               <h4 className="text-[#90b956] font-sans text-[1.1rem] max-[550px]:text-[0.8rem] font-[400] tracking-[2px] mb-3">
                 CHOOSE YOUR TOUR
               </h4>
-              <h1 className="relative xl:lg:md:text-[2.7rem] text-[#09100d] text-[2rem] font-[700] leading-[1.5] font-['Merriweather'] mb-5 px-20">
+              <h1 className="relative xl:lg:md:text-[2.7rem] text-[#09100d] text-[2rem] font-[700] leading-[1.5] font-['Merriweather'] mb-5 px-20 text-center">
                 Get The Best Plans For Your’s
               </h1>
               <img
@@ -74,8 +73,8 @@ const ChooseTour = () => {
                   slidesToSlide={1}
                   swipeable
                 >
-                  <div className="card xl:w-[27rem] lg:w-[21rem] max-[520px]:w-[19rem] max-[332px]:w-[15rem] border-[1px] hover:border-transparent hover:shadow-xl text-[#09100d] rounded-none">
-                    <figure className="h-[250px] relative">
+                  <div className="card w-[96%] border-[1px] hover:border-transparent hover:shadow-xl text-[#09100d] rounded-none">
+                    <figure className="relative">
                       <img
                         src="https://astrip-react.vercel.app/assets/images/bg/best-plan21.png"
                         alt=""
@@ -149,8 +148,8 @@ const ChooseTour = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="card xl:w-[27rem] lg:w-[21rem] max-[520px]:w-[19rem] max-[332px]:w-[15rem] border-[1px] hover:border-transparent hover:shadow-xl text-[#09100d] rounded-none">
-                    <figure className="h-[250px] relative">
+                  <div className="card w-[96%] border-[1px] hover:border-transparent hover:shadow-xl text-[#09100d] rounded-none">
+                    <figure className="relative">
                       <img
                         src="https://astrip-react.vercel.app/assets/images/bg/best-plan22.png"
                         alt=""
@@ -223,8 +222,8 @@ const ChooseTour = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="card xl:w-[27rem] lg:w-[21rem] max-[520px]:w-[19rem] max-[332px]:w-[15rem] border-[1px] hover:border-transparent hover:shadow-xl text-[#09100d] rounded-none">
-                    <figure className="h-[250px] relative">
+                  <div className="card w-[96%] border-[1px] hover:border-transparent hover:shadow-xl text-[#09100d] rounded-none">
+                    <figure className="relative">
                       <img
                         src="https://astrip-react.vercel.app/assets/images/bg/best-plan23.png"
                         alt=""

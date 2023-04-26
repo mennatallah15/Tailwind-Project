@@ -120,7 +120,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="max-[990px]:hidden">
+          <a className="max-[1024px]:hidden">
             <img
               src="https://astrip-react.vercel.app/assets/images/icons/header2-logo.svg"
               alt=""
