@@ -26,16 +26,19 @@ const FeelTheVibe = () => {
           <MainButton text={"Discover More"} margin={"mt-5"} />
         </div>
         <div className="mt-24 flex lg:justify-start justify-center items-center flex-col">
-          <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">
-            <svg
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              height="2em"
-              width="2em"
-              className="text-[#90b956]"
-            >
-              <path d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z" />
-            </svg>
+          <div className="relative w-10 h-10">
+            <div className="absolute bg-white rounded-full opacity-75 animate-ping inline-flex w-full h-full"></div>
+            <div className="relative w-10 h-10 bg-white rounded-full flex justify-center items-center">
+              <svg
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                height="2em"
+                width="2em"
+                className="text-[#90b956]"
+              >
+                <path d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z" />
+              </svg>
+            </div>
           </div>
           <div className="flex lg:mt-20 mt-8 justify-center items-center lg:-rotate-90">
             <div className=" text-white font-[500]">Watch Now</div>

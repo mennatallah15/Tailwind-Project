@@ -7,13 +7,6 @@
   margin: 0;
 }
 
-/* ----------------------------Navbar------------------------------- */
-.menu li > *:not(ul) {
-  gap: 0;
-  /* background-color: #90b956; */
-  padding: 10px;
-}
-
 /* ----------------------------Header------------------------------- */
 .MainTitle::after {
   content: url(https://astrip-react.vercel.app/_next/static/media/banner-dot-vector.26600116.svg) !important;
@@ -31,20 +24,6 @@
   left: 45%;
   transform: translate(-50%, -50%);
 }
-
-/* .HeaderBtn {
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-
-.HeaderBtn:hover {
-  -webkit-transform: scale(1) !important;
-  -ms-transform: scale(1) !important;
-  transform: scale(1) !important;
-  background-color: white !important;
-  color: #90b956;
-  border: 2px solid #90b956 !important;
-} */
 
 .Plane {
   animation: 20s linear 0s infinite reverse;
@@ -129,7 +108,7 @@
   border: 1px solid rgba(144, 185, 86, 0.33);
   border-radius: 5px;
 }
-
+/* ----------------------------Buttons------------------------------- */
 .overlay {
   -webkit-transform: scale(0);
   -ms-transform: scale(0);

@@ -15,69 +15,69 @@ const TravelCategory = () => {
               alt=""
             />
             <div className="flex gap-8 my-20 flex-wrap justify-center items-center">
-              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center">
-                <div className="mb-5 p-5 border-[1px] hover:border-0 rounded-full mx-auto">
+              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center group">
+                <div className="mb-5 p-5 border-[1px] group-hover:border-transparent rounded-full mx-auto">
                   <img
                     src="https://astrip-react.vercel.app/assets/images/icons/adventure.svg"
                     alt=""
                   />
                 </div>
-                <div className="text-[#09100d] text-[1.4rem] font-[500]">
+                <div className="text-[#09100d] text-[1.4rem] font-[500] cursor-pointer hover:text-[#90b956]">
                   Adventure
                 </div>
               </div>
-              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center">
-                <div className="mb-5 p-5 border-[1px] hover:border-0 rounded-full mx-auto">
+              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center group">
+                <div className="mb-5 p-5 border-[1px] group-hover:border-transparent rounded-full mx-auto">
                   <img
                     src="https://astrip-react.vercel.app/assets/images/icons/city-tour.svg"
                     alt=""
                   />
                 </div>
-                <div className="text-[#09100d] text-[1.4rem] font-[500]">
+                <div className="text-[#09100d] text-[1.4rem] font-[500] cursor-pointer hover:text-[#90b956]">
                   City Tour
                 </div>
               </div>
-              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center">
-                <div className="mb-5 p-5 border-[1px] hover:border-0 rounded-full mx-auto">
+              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center group">
+                <div className="mb-5 p-5 border-[1px] group-hover:border-transparent rounded-full mx-auto">
                   <img
                     src="https://astrip-react.vercel.app/assets/images/icons/sheep.svg"
                     alt=""
                   />
                 </div>
-                <div className="text-[#09100d] text-[1.4rem] font-[500]">
+                <div className="text-[#09100d] text-[1.4rem] font-[500] cursor-pointer hover:text-[#90b956]">
                   Cruises Tour
                 </div>
               </div>
-              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center">
-                <div className="mb-5 p-5 border-[1px] hover:border-0 rounded-full mx-auto">
+              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center group">
+                <div className="mb-5 p-5 border-[1px] group-hover:border-transparent rounded-full mx-auto">
                   <img
                     src="https://astrip-react.vercel.app/assets/images/icons/wedding.svg"
                     alt=""
                   />
                 </div>
-                <div className="text-[#09100d] text-[1.4rem] font-[500]">
+                <div className="text-[#09100d] text-[1.4rem] font-[500] cursor-pointer hover:text-[#90b956]">
                   Wedding
                 </div>
               </div>
-              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center">
-                <div className="mb-5 p-5 border-[1px] hover:border-0 rounded-full mx-auto">
+              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center group">
+                <div className="mb-5 p-5 border-[1px] group-hover:border-transparent rounded-full mx-auto">
                   <img
                     src="https://astrip-react.vercel.app/assets/images/icons/sea-tour.svg"
                     alt=""
                   />
                 </div>
-                <div className="text-[#09100d] text-[1.4rem] font-[500]">
+                <div className="text-[#09100d] text-[1.4rem] font-[500] cursor-pointer hover:text-[#90b956]">
                   Sea Tour
                 </div>
               </div>
-              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center">
-                <div className="mb-5 p-5 border-[1px] hover:border-0 rounded-full mx-auto">
+              <div className="px-10 py-7 shadow-lg flex flex-col justify-center items-center group">
+                <div className="mb-5 p-5 border-[1px] group-hover:border-transparent rounded-full mx-auto">
                   <img
                     src="https://astrip-react.vercel.app/assets/images/icons/travel.svg"
                     alt=""
                   />
                 </div>
-                <div className="text-[#09100d] text-[1.4rem] font-[500]">
+                <div className="text-[#09100d] text-[1.4rem] font-[500] cursor-pointer hover:text-[#90b956]">
                   Travel
                 </div>
               </div>
