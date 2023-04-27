@@ -5,9 +5,9 @@ const Footer = () => {
     <>
       <CarouselPhoto />
       <div className="flex flex-col mx-auto px-20 bg-base-200 py-8 FooterImage">
-        <footer className="flex gap-32 flex-wrap p-10">
+        <footer className="flex lg:gap-32 md:gap-20 gap-10 flex-wrap py-12 px-6">
           <div>
-            <div className="w-64 relative p-[20px] bg-[hsla(0,0%,7%,.9)] rounded-full max-w-[280px] flex flex-col justify-center items-center overflow-hidden">
+            <div className="w-72 relative p-[20px] bg-[hsla(0,0%,7%,.9)] rounded-full max-w-[280px] flex flex-col justify-center items-center overflow-hidden">
               <img
                 className="absolute top-[40px] opacity-[.1]"
                 src="https://astrip-react.vercel.app/assets/images/icons/footer-plane.svg"
@@ -55,19 +55,34 @@ const Footer = () => {
             <span className="footer-title relative font-[500] normal-case text-[1.6rem] pb-[12px] font-['Merriweather'] opacity-100 mb-5">
               Information
             </span>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px]">
+            <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
+              <span className="w-20 text-[#90b956] hidden group-hover:inline">
+                -
+              </span>
               About Company
             </a>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px]">
+            <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
+              <span className="w-20 text-[#90b956] hidden group-hover:inline">
+                -
+              </span>
               Online Query
             </a>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px]">
+            <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
+              <span className="w-20 text-[#90b956] hidden group-hover:inline">
+                -
+              </span>
               Become Partner
             </a>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px]">
+            <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
+              <span className="w-20 text-[#90b956] hidden group-hover:inline">
+                -
+              </span>
               Help & Support
             </a>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px]">
+            <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
+              <span className="w-20 text-[#90b956] hidden group-hover:inline">
+                -
+              </span>
               Contact Channels
             </a>
           </div>
@@ -75,19 +90,34 @@ const Footer = () => {
             <span className="footer-title relative font-[500] normal-case text-[1.6rem] pb-[12px] font-['Merriweather'] opacity-100 mb-5">
               Destinations
             </span>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px]">
+            <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
+              <span className="w-20 text-[#90b956] hidden group-hover:inline">
+                -
+              </span>
               Grand Switzerland
             </a>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px]">
+            <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
+              <span className="w-20 text-[#90b956] hidden group-hover:inline">
+                -
+              </span>
               Beauty of Paris
             </a>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px]">
+            <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
+              <span className="w-20 text-[#90b956] hidden group-hover:inline">
+                -
+              </span>
               United States
             </a>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px]">
+            <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
+              <span className="w-20 text-[#90b956] hidden group-hover:inline">
+                -
+              </span>
               Wiesbaden Sea
             </a>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px]">
+            <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
+              <span className="w-20 text-[#90b956] hidden group-hover:inline">
+                -
+              </span>
               Bangladesh
             </a>
           </div>
@@ -95,15 +125,15 @@ const Footer = () => {
             <span className="footer-title relative font-[500] normal-case text-[1.6rem] pb-[12px] font-['Merriweather'] opacity-100 mb-5">
               Reach Us
             </span>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px] flex">
-              <div className="w-[30px] h-[30px] text-center border-[1px] border-[#90b956] rounded-full flex justify-center items-center mr-4">
+            <a className="group text-[17px] font-[400] mb-[15px] flex">
+              <div className="group group-hover:bg-[#90b956] w-[30px] h-[30px] text-center border-[1px] border-[#90b956] rounded-full flex justify-center items-center mr-4 mt-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="text-[#90b956] w-5 h-5"
+                  className="text-[#90b956] w-5 h-5 group-hover:text-white"
                 >
                   <path
                     strokeLinecap="round"
@@ -112,20 +142,20 @@ const Footer = () => {
                   />
                 </svg>
               </div>
-              <div>
+              <div className="cursor-pointer">
                 <p className="mb-[6px]">+880 176 1111 456</p>
                 <p className="mb-[6px]">+880 176 1111 457</p>
               </div>
             </a>
-            <a className="link link-hover text-[17px] font-[400] mb-[15px] flex">
-              <div className="w-[30px] h-[30px] text-center border-[1px] border-[#90b956] rounded-full flex justify-center items-center mr-4">
+            <a className="group text-[17px] font-[400] mb-[15px] flex">
+              <div className="mt-3 group group-hover:bg-[#90b956] w-[30px] h-[30px] text-center border-[1px] border-[#90b956] rounded-full flex justify-center items-center mr-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="text-[#90b956] w-5 h-5"
+                  className="text-[#90b956] w-5 h-5 group-hover:text-white"
                 >
                   <path
                     strokeLinecap="round"
@@ -134,20 +164,20 @@ const Footer = () => {
                   />
                 </svg>
               </div>
-              <div>
+              <div className="cursor-pointer">
                 <p className="mb-[6px]">info@example.com</p>
                 <p className="mb-[6px]">support@example.com</p>
               </div>
             </a>
-            <a className="link link-hover text-[17px] font-[400] flex justify-center items-center">
-              <div className="w-[30px] h-[30px] text-center border-[1px] border-[#90b956] rounded-full flex justify-center items-center mr-4">
+            <a className="group text-[17px] font-[400] flex justify-center items-center">
+              <div className="group group-hover:bg-[#90b956] w-[30px] h-[30px] text-center border-[1px] border-[#90b956] rounded-full flex justify-center items-center mr-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="text-[#90b956] w-5 h-5"
+                  className="text-[#90b956] w-5 h-5 group-hover:text-white"
                 >
                   <path
                     strokeLinecap="round"

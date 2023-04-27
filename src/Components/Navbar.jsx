@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="mx-auto px-20 bg-white py-3 shadow-md fixed top-0 w-full z-10">
@@ -22,99 +23,21 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-4 shadow bg-white rounded-none w-60"
             >
               <li>
-                <a>Home</a>
+                <a href="">Home</a>
               </li>
-              <li tabIndex={0}>
-                <a className="justify-between">
-                  Destination
-                  <svg
-                    className="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
-                </a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+              <li>
+                <a href="">Destination</a>
               </li>
-              <li tabIndex={0}>
-                <a className="justify-between">
-                  Tours
-                  <svg
-                    className="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
-                </a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+              <li>
+                <a href="">Tours</a>
               </li>
-              <li tabIndex={0}>
-                <a className="justify-between">
-                  Pages
-                  <svg
-                    className="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
-                </a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+              <li>
+                <a href=""> Pages</a>
               </li>
-              <li tabIndex={0}>
-                <a className="justify-between">
-                  Blog
-                  <svg
-                    className="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
-                </a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
+
               <li>
                 <a>Contact Us</a>
               </li>
@@ -128,32 +51,52 @@ const Navbar = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a className="font-[500] text-[18px] text-[#90b956]">Home</a>
+          <ul className="menu-horizontal px-1 border-none gap-8">
+            <li className="cursor-pointer group">
+              <Link
+                to="/"
+                className="relative font-[500] text-[18px] text-[#90b956] NavLinks group-hover:after:w-full pb-2"
+              >
+                Home
+              </Link>
             </li>
-            <li tabIndex={0}>
-              <a className="font-[500] text-[18px] hover:text-[#90b956]">
+            <li className="cursor-pointer group">
+              <a
+                href="#Destination"
+                className="relative font-[500] text-[18px] hover:text-[#90b956] NavLinks group-hover:after:w-full pb-2"
+              >
                 Destination
               </a>
             </li>
-            <li tabIndex={0}>
-              <a className="font-[500] text-[18px] hover:text-[#90b956]">
+            <li className="cursor-pointer group">
+              <a
+                href="#Tours"
+                className="relative font-[500] text-[18px] hover:text-[#90b956] NavLinks group-hover:after:w-full pb-2"
+              >
                 Tours
               </a>
             </li>
-            <li tabIndex={0}>
-              <a className="font-[500] text-[18px] hover:text-[#90b956]">
+            <li className="cursor-pointer group">
+              <a
+                href=""
+                className="relative font-[500] text-[18px] hover:text-[#90b956] NavLinks group-hover:after:w-full pb-2"
+              >
                 Pages
               </a>
             </li>
-            <li tabIndex={0}>
-              <a className="font-[500] text-[18px] hover:text-[#90b956]">
+            <li className="cursor-pointer group">
+              <a
+                href=""
+                className="relative font-[500] text-[18px] hover:text-[#90b956] NavLinks group-hover:after:w-full pb-2"
+              >
                 Blog
               </a>
             </li>
-            <li>
-              <a className="font-[500] text-[18px] hover:text-[#90b956]">
+            <li className="cursor-pointer group">
+              <a
+                href=""
+                className="relative font-[500] text-[18px] hover:text-[#90b956] NavLinks group-hover:after:w-full pb-2"
+              >
                 Contact Us
               </a>
             </li>
@@ -173,9 +116,9 @@ const Navbar = () => {
               <path d="M19.4556 8.56378C21.4463 8.8981 23.2547 9.84025 24.6983 11.2839C26.1419 12.7275 27.0765 14.5358 27.4184 16.5265C27.502 17.028 27.9351 17.3775 28.4289 17.3775C28.4897 17.3775 28.5429 17.3699 28.6037 17.3623C29.1659 17.2711 29.5382 16.7393 29.4471 16.177C29.0368 13.7684 27.8971 11.5726 26.1571 9.83266C24.4172 8.0927 22.2213 6.953 19.8127 6.5427C19.2505 6.45152 18.7262 6.82383 18.6275 7.37849C18.5287 7.93314 18.8934 8.47261 19.4556 8.56378Z"></path>
               <path d="M35.9595 15.8804C35.2832 11.9142 33.4141 8.30511 30.5421 5.43304C27.67 2.56098 24.0609 0.691864 20.0947 0.0156379C19.5401 -0.0831367 19.0158 0.296766 18.917 0.851423C18.8259 1.41368 19.1982 1.93794 19.7604 2.03672C23.3011 2.63696 26.5303 4.31613 29.0984 6.87667C31.6666 9.44481 33.3381 12.674 33.9384 16.2147C34.022 16.7161 34.455 17.0657 34.9489 17.0657C35.0097 17.0657 35.0629 17.0581 35.1237 17.0505C35.6783 16.9669 36.0582 16.435 35.9595 15.8804Z"></path>
             </svg>
-            <div className="ml-2">
+            <div className="ml-3">
               Call now
-              <p>+880 170 1111 000</p>
+              <p className="font-[500]">+880 170 1111 000</p>
             </div>
           </div>
           <div className="lg:hidden flex">

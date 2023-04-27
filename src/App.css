@@ -7,6 +7,21 @@
   margin: 0;
 }
 
+/* ----------------------------Navbar------------------------------- */
+.NavLinks::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* width: 100%; */
+  height: 2px;
+  border-radius: 30px;
+  display: block;
+  background: linear-gradient(90deg, #90b956, transparent);
+  /* opacity: 0; */
+  transition: all 0.5s ease-out 0s;
+}
+
 /* ----------------------------Header------------------------------- */
 .MainTitle::after {
   content: url(https://astrip-react.vercel.app/_next/static/media/banner-dot-vector.26600116.svg) !important;
@@ -148,8 +163,6 @@
 }
 
 .FooterSvg {
-  /* -webkit-animation: rotate 15s linear infinite; */
-  /* animation: rotate 15s linear infinite; */
   -webkit-animation: spin 15s linear infinite;
   -moz-animation: spin 15s linear infinite;
   animation: spin 15s linear infinite;

@@ -4,7 +4,7 @@ const TravelCategory = () => {
       <div className="text-center">
         <div>
           <div className="flex flex-col justify-center items-center">
-            <h4 className="text-[#90b9567 font-sans text-[1.1rem] max-[550px]:text-[0.8rem] font-[400] tracking-[2px] mb-3">
+            <h4 className="text-[#90b956] font-sans text-[1.1rem] max-[550px]:text-[0.8rem] font-[400] tracking-[2px] mb-3">
               TRAVEL CATEGORY
             </h4>
             <h1 className="relative xl:lg:md:text-[2.7rem] text-[#09100d] text-[2.5rem] font-[700] leading-[1.5] font-['Merriweather'] mb-5">

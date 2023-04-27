@@ -5,7 +5,7 @@ import ReverseBtn from "./ReverseBtn";
 const ChooseTour = () => {
   return (
     <>
-      <div>
+      <div id="Tours">
         <div>
           <div>
             <div className="flex flex-col justify-center items-center">
