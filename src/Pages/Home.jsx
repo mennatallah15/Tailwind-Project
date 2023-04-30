@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../Components/Header";
 import HeaderCards from "../Components/HeaderCards";
 import TravelCategory from "../Components/TravelCategory";
@@ -9,7 +8,7 @@ import AskForm from "../Components/AskForm";
 import ChooseTour from "../Components/ChooseTour";
 import Numbers from "../Components/Numbers";
 import JoinNewsletter from "../Components/JoinNewsletter";
-import MainButton from "../Components/MainButton";
+import Blogs from "../Components/Blogs";
 
 const Home = () => {
   return (
@@ -24,6 +23,7 @@ const Home = () => {
       <ChooseTour />
       <Numbers />
       <JoinNewsletter />
+      <Blogs />
     </div>
   );
 };

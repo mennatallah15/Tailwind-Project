@@ -104,6 +104,10 @@
   border-radius: 30px;
   background-color: #5e5e5e;
 }
+.react-multiple-carousel__arrow {
+  background-color: black !important;
+  bottom: 470px;
+}
 
 /* ----------------------------Newsletter------------------------------- */
 .Newsletter {
@@ -122,6 +126,16 @@
   backdrop-filter: blur(50px);
   border: 1px solid rgba(144, 185, 86, 0.33);
   border-radius: 5px;
+}
+
+.BlogRead::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #5e5e5e;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 /* ----------------------------Buttons------------------------------- */
 .overlay {

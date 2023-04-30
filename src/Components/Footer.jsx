@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col text-[#d7d3d3]">
-            <span className="footer-title relative font-[500] normal-case text-[1.6rem] pb-[12px] font-['Merriweather'] opacity-100 mb-5">
+            <span className="footer-title relative font-[500] normal-case text-[1.5rem] pb-[12px] font-['Merriweather'] opacity-100 mb-5">
               Information
             </span>
             <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
@@ -87,7 +87,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex flex-col text-[#d7d3d3]">
-            <span className="footer-title relative font-[500] normal-case text-[1.6rem] pb-[12px] font-['Merriweather'] opacity-100 mb-5">
+            <span className="footer-title relative font-[500] normal-case text-[1.5rem] pb-[12px] font-['Merriweather'] opacity-100 mb-5">
               Destinations
             </span>
             <a className="cursor-pointer hover:text-[#90b956] text-[17px] font-[400] mb-[15px] group">
@@ -122,7 +122,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex flex-col text-[#d7d3d3]">
-            <span className="footer-title relative font-[500] normal-case text-[1.6rem] pb-[12px] font-['Merriweather'] opacity-100 mb-5">
+            <span className="footer-title relative font-[500] normal-case text-[1.5rem] pb-[12px] font-['Merriweather'] opacity-100 mb-5">
               Reach Us
             </span>
             <a className="group text-[17px] font-[400] mb-[15px] flex">
@@ -143,7 +143,7 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="cursor-pointer">
-                <p className="mb-[6px]">+880 176 1111 456</p>
+                <p className="mb-[6px] ">+880 176 1111 456</p>
                 <p className="mb-[6px]">+880 176 1111 457</p>
               </div>
             </a>

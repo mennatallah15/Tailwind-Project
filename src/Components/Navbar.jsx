@@ -26,16 +26,19 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-4 shadow bg-white rounded-none w-60"
             >
               <li>
-                <a href="">Home</a>
+                <a href="#">Home</a>
               </li>
               <li>
-                <a href="">Destination</a>
+                <a href="#Destination">Destination</a>
               </li>
               <li>
-                <a href="">Tours</a>
+                <a href="#Tours">Tours</a>
               </li>
               <li>
-                <a href=""> Pages</a>
+                <a href="">Pages</a>
+              </li>
+              <li>
+                <a href="#Blogs">Blog</a>
               </li>
 
               <li>
@@ -86,7 +89,7 @@ const Navbar = () => {
             </li>
             <li className="cursor-pointer group">
               <a
-                href=""
+                href="#Blogs"
                 className="relative font-[500] text-[18px] hover:text-[#90b956] NavLinks group-hover:after:w-full pb-2"
               >
                 Blog
